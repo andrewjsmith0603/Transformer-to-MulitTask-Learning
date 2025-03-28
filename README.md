@@ -1,5 +1,5 @@
 Instructions to run program:
-docker pull ghcr.io/andrewjsmith0603/fetch:latest
+docker pull ghcr.io/andrewjsmith0603/fetch/fetch_assignment:tag
 
 Task 1 Commentary:
 In designing the sentence transformer, there were a few choices made outside of the base level BERT architecture that I implemented. Since the task was to create a sentence transformer model, a pooling technique needs to be used to aggregate the embeddings. For this model, I chose to use a max pooling method as it is a simple and effective method that was well suited for the downstream tasks. Max pooling is useful for the downstream classification tasks as it captures the most significant features from the token embeddings, ensuring that the strongest signals influence the have the most influence on the final decision. This helps highlight important keywords or tokens that are crucial for distinguishing between classes. I also chose to include a member variable for the embedding size so it would be easily accessible in the subsequent multitask model.
