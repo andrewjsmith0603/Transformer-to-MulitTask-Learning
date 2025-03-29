@@ -1,5 +1,7 @@
 Instructions to run program:
+
 docker pull ghcr.io/andrewjsmith0603/fetch/fetch_assignment:tag
+
 docker run ghcr.io/andrewjsmith0603/fetch/fetch_assignment:tag
 
 Task 1 Commentary:
